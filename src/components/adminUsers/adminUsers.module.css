@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    overflow-y: auto;
+    width: 100%;
+ }
+ 
+ .user {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     
+     padding: 10px;
+     margin: 10px;
+     border-radius: 5px;
+  
+    
+ }
+ 
+ .userTitle {
+     font-size: 1.5rem;
+     font-weight: bold;
+     margin-top: 10px;
+ }
+ 
+ .deleteBtn {
+     margin-top: 10px;
+     background: red;
+     color: white;
+     border: none;
+     padding: 5px;
+     border-radius: 5px;
+     cursor: pointer;
+  
+ }
